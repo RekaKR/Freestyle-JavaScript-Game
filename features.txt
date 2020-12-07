@@ -1,7 +1,7 @@
-esnek le ajándékok az égből.
-különböző sebességgel
-rá kell kattintani az ajándékra
-kattintásra az ajándék eltűnik
+Cs: esnek le ajándékok az égből.
+Cs: különböző sebességgel
+Cs: rá kell kattintani az ajándékra
+Cs: kattintásra az ajándék eltűnik
 kattintásra a pontszám növekszik 1-el.
 grafika
 
