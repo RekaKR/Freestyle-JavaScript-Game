@@ -1,0 +1,19 @@
+esnek le ajándékok az égből.
+különböző sebességgel
+rá kell kattintani az ajándékra
+kattintásra az ajándék eltűnik
+kattintásra a pontszám növekszik 1-el.
+grafika
+
+
+esnek le olyan tárgyak, amikre nem lehet rákapcsolni, vagy vége a játéknak.
+ha leesik a macska, akkor nyávog egyet
+ha leesik a macska, kifut a képernyőről oldalra
+minél több ajándékot gyűjtesz össze, annál nagyobb lesz a zsák
+A zsák eltakarja az egész képernyőt.
+grincs – az összes ajándék lenullázódik
+alul egy tűz ég, ahol „elégnek” az ajándékok
+nem csak ráklikkelni kell, hanem drag drop-pal berakni a zsákba
+különböző útvonalon
+
+ha egy tárgyra rákattintasz, a pont is növekszik
