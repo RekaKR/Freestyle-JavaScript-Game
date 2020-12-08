@@ -2,13 +2,9 @@
 // let onLoadInterval = setInterval(onLoad, 2000);
 
 function onLoad () {
-  function color(){
-    root.querySelector(".gift").classList.add("color");
-  }
-  
   function collectGift() {
-    highScore += 1;
-    console.log(highScore);
+    score += 1;
+    console.log(score);
     this.remove();
   }
   
@@ -16,70 +12,53 @@ function onLoad () {
     return Math.floor(Math.random() * (max - min) + min);
   }
 
-  const root = document.getElementById("root");
-  let highScore = 0;
-  let giftCount = 5;
-  
-  let gift;
-  for (let i = 0; i < giftCount; i++) {
-    gift = document.createElement('div');
+  function createGift(top) {
+    let gift = document.createElement('div');
+    let random = getRandom(1, 25);
+    gift.innerHTML = `<img src="./img/gift${random}.svg">`;
     gift.classList.add('gift');
-    gift.style.top = getRandom(-50, -700) + 'px';
-    gift.style.left = getRandom(0, window.innerWidth) + 'px';
+    gift.style.top = getRandom(-50, top) + 'px';
+    gift.style.left = getRandom(0, window.innerWidth - 50) + 'px';
     gift.addEventListener('click', collectGift);
     root.appendChild(gift);
   }
+
+  const root = document.getElementById("root");
+  let score = 0;
+  let giftCount = 6;
+  let mainRuns = 0;
+  let additionalGifts = 0;
   
-  let mainInterval = setInterval(main, 33);
+  for (let i = 0; i < giftCount; i++) {
+    createGift(-window.innerHeight);
+  }
+  
+  let mainInterval = setInterval(main, 30);
   
   function main() {
+    
+    mainRuns++;
+    if (mainRuns % 420 === 0) {
+      additionalGifts++;
+    }
+    giftCount = getRandom(3 + additionalGifts, 5 + additionalGifts);
+
     let gifts = document.querySelectorAll('.gift');
+    if (gifts.length < giftCount) {
+      createGift(-100);
+    }
     
     for (let i = 0; i < gifts.length; i++) {
       let top = parseInt(gifts[i].style.top);
-      // top += Math.floor(Math.random() * (5 - 1) + 1);
       top += 5;
       gifts[i].style.top = `${top}px`;
       
       if (top >= window.innerHeight) {
         gifts[i].remove();
+        // clearInterval(mainInterval);
       }
     }
-    
-    
-    // let p = i.toString()+"px";
-    // console.log(p);
-    // return i;
-
-    
-    /* let strX = x.replace("px", "");
-    console.log(strX);
-    let numX = parseInt(strX);
-    document.querySelector(".gift").style.top = `${numX+10}px`;
-    *///console.log(document.querySelector(".gift").style.top);    
   }
-  
-  
-  // i = 0;
-  // setInterval(function () { i = dropDown(i)}, 1000);  
-  
-  // root.addEventListener("click", remove);
-  // console.log(highScore);
-  
 }
 
 window.addEventListener("load", onLoad);
-
-
-
-
-
-
-/* 
-initGame();
-
-function initGame() {
-  
-  // Your game can start here, but define separate functions, don't write everything in here :)
-}
- */
