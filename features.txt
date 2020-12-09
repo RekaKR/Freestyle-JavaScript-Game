@@ -1,14 +1,14 @@
 ##Going to execute:##
   Ajándékok esnek le az égből.                      done
     Különböző magasságból esnek le.                 done
-    Kattintásnál: az ajándék eltűnik,               done
-                    a pontszám növekszik 1-el,      done
-                    hangot ad ki.                   Attila
+  Kattintásnál: az ajándék eltűnik,               done
+                  a pontszám növekszik 1-el,      done
+                  hangot ad ki.                   Attila
   A pontszám megjeleneik a képernyőn.               Réka
   Az lost gifts megjelenik a képernyőn.             Réka
   Grafika.
     Designeolt ajándékcsomagok.                     done
-    Van háttér.                                     Attila+Réka
+    Van háttér.                                     done
     5 kiesés után leáll a játék.                    Réka
   Intro.                                            Attila
   Van háttérhang.                                   Attila+Réka
