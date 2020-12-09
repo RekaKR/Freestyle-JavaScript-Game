@@ -12,7 +12,7 @@
    viewBox="0 0 32.720139 27.878263"
    version="1.1"
    id="svg4044"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="gift8.svg">
   <defs
      id="defs4038" />
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-43.880954"
-     inkscape:cy="401.25477"
+     inkscape:zoom="1.979899"
+     inkscape:cx="69.879421"
+     inkscape:cy="66.473914"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -34,11 +34,11 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1267"
-     inkscape:window-height="1040"
-     inkscape:window-x="182"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1600"
+     inkscape:window-height="848"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata4041">
     <rdf:RDF>
@@ -56,6 +56,20 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-117.4435,-42.001342)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00603783;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect843"
+       width="31.147211"
+       height="7.8343401"
+       x="118.18509"
+       y="42.923351" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect841"
+       width="26.824114"
+       height="20.994089"
+       x="120.1162"
+       y="48.091766" />
     <g
        id="g3999"
        transform="matrix(0.35277777,0,0,-0.35277777,-6.1303524,247.99248)">

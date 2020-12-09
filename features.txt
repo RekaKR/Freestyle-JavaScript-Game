@@ -2,15 +2,15 @@
   Intro.                                            Attila
   Ajándékok esnek le az égből.                      done
     Különböző magasságból esnek le.                 done
-   Kattintásnál: az ajándék eltűnik,                done
+    Kattintásnál: az ajándék eltűnik,                done
                  a pontszám növekszik 1-el,         done
                  hangot ad ki.                      done
   A pontszám megjeleneik a képernyőn.               done - Réka     (Formázás.)
   Highstore jelzése                                 Attila
   Az lost gifts megjelenik a képernyőn.             done
   Grafika.                                          done
-    Designeolt ajándékcsomagok.                     done - Réka    (Átkonvertálni. svg-ben nincs háttér - kell háttér, h. ne legyen átlátszó.)
-    Van háttér.                                     done - Réka    (Megnézni opacitivel. Megoldani, h. jó legyen.)
+    Designeolt ajándékcsomagok.                     done - Réka    (Átkonvertálni. 14-ig kész.)
+    Van háttér.                                     done
     5 kiesés után leáll a játék.                    done
   Van háttérhang.                                   done
   Gomb újrakezdéshez.                               Attila

@@ -12,7 +12,7 @@
    viewBox="0 0 34.831795 28.376244"
    version="1.1"
    id="svg4274"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="gift10.svg">
   <defs
      id="defs4268" />
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-739.89042"
-     inkscape:cy="553.6244"
+     inkscape:zoom="5.6"
+     inkscape:cx="51.711798"
+     inkscape:cy="53.588339"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -34,11 +34,11 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1267"
-     inkscape:window-height="1040"
-     inkscape:window-x="26"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1600"
+     inkscape:window-height="848"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata4271">
     <rdf:RDF>
@@ -56,6 +56,34 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-301.59601,-1.6868765)">
+    <ellipse
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.9871192;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path834"
+       cx="310.77661"
+       cy="9.6233101"
+       rx="8.0939198"
+       ry="6.8217225" />
+    <ellipse
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.9871192;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path834-5"
+       cx="327.34564"
+       cy="9.463418"
+       rx="8.0939198"
+       ry="6.8217225" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.14440274;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect853"
+       width="32.280029"
+       height="8.0141602"
+       x="303.01343"
+       y="7.5735364" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.95873505;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect855"
+       width="23.103796"
+       height="8.598959"
+       x="307.02942"
+       y="11.825769" />
     <g
        id="g4239"
        transform="matrix(0.35277777,0,0,-0.35277777,84.729344,207.90986)">

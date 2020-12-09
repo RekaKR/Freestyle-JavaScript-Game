@@ -12,7 +12,7 @@
    viewBox="0 0 35.365971 28.319235"
    version="1.1"
    id="svg4730"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="gift14.svg">
   <defs
      id="defs4724" />
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="63.976189"
-     inkscape:cy="284.94524"
+     inkscape:zoom="3.959798"
+     inkscape:cx="115.88211"
+     inkscape:cy="25.951059"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -35,7 +35,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1267"
-     inkscape:window-height="1040"
+     inkscape:window-height="900"
      inkscape:window-x="234"
      inkscape:window-y="0"
      inkscape:window-maximized="0" />
@@ -56,6 +56,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-88.9063,-72.774906)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.05369318;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect849"
+       width="33.468899"
+       height="5.0802188"
+       x="89.920532"
+       y="73.568657" />
     <g
        id="g4693"
        transform="matrix(0.35277777,0,0,-0.35277777,-79.964538,232.02747)">
