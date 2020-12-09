@@ -9,7 +9,7 @@ body {
   background-image: url(./img/background.jpg);
   background-color: #ce0d0d;
   background-repeat: no-repeat;
-  //background-position: center;
+  background-position: center;
   background-size: cover;
 }
 
@@ -60,6 +60,28 @@ body {
     @media (min-width: 1280px) {
       width: 70px;
       height: 70px;  
+    }  
+  }
+}
+
+.cat {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 0;
+
+  @media (min-width: 1280px) {
+    width: 100px;
+    height: 100px;  
+  }
+
+  img {
+    width: 70px;
+    height: 70px;
+
+    @media (min-width: 1280px) {
+      width: 100px;
+      height: 100px;  
     }  
   }
 }

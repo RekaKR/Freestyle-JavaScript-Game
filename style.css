@@ -9,6 +9,7 @@ body {
   background-image: url(./img/background.jpg);
   background-color: #ce0d0d;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -62,6 +63,32 @@ body {
   .gift img {
     width: 70px;
     height: 70px;
+  }
+}
+
+.cat {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 0;
+}
+
+@media (min-width: 1280px) {
+  .cat {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.cat img {
+  width: 70px;
+  height: 70px;
+}
+
+@media (min-width: 1280px) {
+  .cat img {
+    width: 100px;
+    height: 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */

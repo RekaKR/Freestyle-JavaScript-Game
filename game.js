@@ -2,13 +2,6 @@
 // let onLoadInterval = setInterval(onLoad, 2000);
 
 function onLoad () {
-  function collectGift() {
-    let scoreNumber = document.getElementById("score");
-    score += 1;
-    scoreNumber.textContent = `${score}`;
-    this.remove();
-  }
-  
   function getRandom(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
   }
@@ -24,27 +17,32 @@ function onLoad () {
     root.appendChild(gift);
   }
 
-  const root = document.getElementById("root");
-  let score = 0;
-  let life = 5;
-  let giftCount = 6;
-  let mainRuns = 0;
-  let additionalGifts = 0;
-  
-  for (let i = 0; i < giftCount; i++) {
-    createGift(-window.innerHeight);
+  function createCat(top) {
+    let cat = document.createElement('div'); //div.cat
+    //let random = getRandom(MINKÉPSZÁM, MAXKÉPSZÁM);
+    //gift.innerHTML = `<img src="./img/gift${random}.svg">`;
+    cat.innerHTML = `<img src="./img/cat.png">`;
+    cat.classList.add('cat');
+    cat.style.top = getRandom(-50, top) + 'px';
+    cat.style.left = getRandom(0, window.innerWidth - 50) + 'px';
+    cat.addEventListener('click', collectCat);
+    root.appendChild(cat);
+  }
+
+  function collectGift() {
+    let scoreNumber = document.getElementById("score");
+    score += 1;
+    scoreNumber.textContent = `${score}`;
+    this.remove();
+    collectSound();
+  }
+
+  function collectCat() {
+    this.remove();
+    gameOver();
   }
   
-  let mainInterval = setInterval(main, 30);
-  
-  function main() {
-    
-    mainRuns++;
-    if (mainRuns % 420 === 0) {
-      additionalGifts++;
-    }
-    giftCount = getRandom(3 + additionalGifts, 5 + additionalGifts);
-
+  function moveGift() {
     let gifts = document.querySelectorAll('.gift');
     if (gifts.length < giftCount) {
       createGift(-100);
@@ -58,7 +56,6 @@ function onLoad () {
       if (top >= window.innerHeight) {
         gifts[i].remove();
         life -= 1;
-        console.log(life);
         document.getElementById(`img${life + 1}`).classList.add("img-none");
 
         /*
@@ -80,13 +77,76 @@ function onLoad () {
           lifeOne.classList.add("img-none");
         }
         */
-       
+
         if (life <= 0) {
-          clearInterval(mainInterval);
+          gameOver();
         }
       }
     }
   }
+
+  function moveCat() {
+    let cats = document.querySelectorAll('.cat');
+
+    let catTop = parseInt(cats[0].style.top);
+    catTop += 3;
+    cats[0].style.top = `${catTop}px`;
+  
+    if (catTop >= window.innerHeight) {
+      cats[0].remove();
+      createCat(-100);
+    }
+  }
+
+  function collectSound() {
+    let collectSound = document.getElementById("collect-sound");
+    collectSound.volume = 0.1;
+    collectSound.play();
+  }
+
+  function backgroundSound() {
+    audio.volume = 0.1;
+    audio.play();
+  }
+
+  function gameOver() {
+    clearInterval(mainInterval);
+    audio.pause();
+    audio.currentTime = 0;
+/*    if (score > highScore) {
+
+    }
+*/
+  }
+
+  function main() {
+    intervalCount++;
+
+    if (intervalCount % 420 === 0) {
+      additionalGifts++;
+    }
+
+    giftCount = getRandom(3 + additionalGifts, 5 + additionalGifts);
+    moveGift();
+    moveCat();
+  }
+
+  document.querySelector("#score").addEventListener('click', backgroundSound); //ne a score-ra
+
+  const root = document.getElementById("root");
+  let score = 0;
+  let life = 5;
+  let giftCount = 6;
+  let intervalCount = 0;
+  let additionalGifts = 0;
+  let mainInterval = setInterval(main, 30);
+  let audio = document.getElementById("xmas-sound");
+
+  for (let i = 0; i < giftCount; i++) {
+    createGift(-window.innerHeight);
+  }
+  
+  createCat(-100);  
 }
 
 window.addEventListener("load", onLoad);

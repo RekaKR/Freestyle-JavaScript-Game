@@ -1,34 +1,36 @@
 ##Going to execute:##
+  Intro.                                            Attila
   Ajándékok esnek le az égből.                      done
     Különböző magasságból esnek le.                 done
-  Kattintásnál: az ajándék eltűnik,                 done
-                  a pontszám növekszik 1-el,        done
-                  hangot ad ki.                     Attila
-  A pontszám megjeleneik a képernyőn.               done     (Formázás.)
+   Kattintásnál: az ajándék eltűnik,                done
+                 a pontszám növekszik 1-el,         done
+                 hangot ad ki.                      done
+  A pontszám megjeleneik a képernyőn.               done - Réka     (Formázás.)
+  Highstore jelzése                                 Attila
   Az lost gifts megjelenik a képernyőn.             done
-  Grafika.
-    Designeolt ajándékcsomagok.                     done    (Átkonvertálni. svg-ben nincs háttér - kell háttér, h. ne legyen átlátszó.)
-    Van háttér.                                     done    (Megnézni opacitivel. Megoldani, h. jó legyen.)
+  Grafika.                                          done
+    Designeolt ajándékcsomagok.                     done - Réka    (Átkonvertálni. svg-ben nincs háttér - kell háttér, h. ne legyen átlátszó.)
+    Van háttér.                                     done - Réka    (Megnézni opacitivel. Megoldani, h. jó legyen.)
     5 kiesés után leáll a játék.                    done
-  Intro.                                            Attila
-  Van háttérhang.                                   Attila+Réka
+  Van háttérhang.                                   done
+  Gomb újrakezdéshez.                               Attila
+  Reszponzivitás                                    ?!
+  
+##Features being execute:##
+  Macska esik le az égből.                          done
+    Kattintásra: Vége a játéknak.                   done
 
 
 ##Feature##
-Különböző sebességgel
-macska, amikre nem lehet rákapcsolni, vagy vége a játéknak.
-ha leesik a macska, akkor nyávog egyet
-  kell macska kép
-ha leesik a macska, kifut a képernyőről oldalra
-grincs – az összes ajándék lenullázódik
-süti extra élet
-
-minél több ajándékot gyűjtesz össze, annál nagyobb lesz a zsák
-A zsák eltakarja az egész képernyőt.
-alul egy tűz ég, ahol „elégnek” az ajándékok
-nem csak ráklikkelni kell, hanem drag drop-pal berakni a zsákba
-különböző útvonalon
-nem csússzanak egymásra az ajándékok
-fektetett képernyőn és álló képernyőn azonos legyen a nehézség
-
-
+  Különböző sebességgel
+  Ha leesik a macska, akkor nyávog egyet.
+  Kifut a képernyőről oldalra.
+  grincs – az összes ajándék lenullázódik
+  süti extra élet
+  Minél több ajándékot gyűjtesz össze, annál nagyobb lesz a zsák
+  A zsák eltakarja az egész képernyőt.
+  Alul egy tűz ég, ahol „elégnek” az ajándékok
+  Nem csak ráklikkelni kell, hanem drag drop-pal berakni a zsákba
+  Különböző útvonalon
+  Nem csússzanak egymásra az ajándékok
+  Fektetett képernyőn és álló képernyőn azonos legyen a nehézség
