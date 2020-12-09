@@ -1,15 +1,15 @@
 ##Going to execute:##
   Ajándékok esnek le az égből.                      done
     Különböző magasságból esnek le.                 done
-  Kattintásnál: az ajándék eltűnik,               done
-                  a pontszám növekszik 1-el,      done
-                  hangot ad ki.                   Attila
-  A pontszám megjeleneik a képernyőn.               Réka
-  Az lost gifts megjelenik a képernyőn.             Réka
+  Kattintásnál: az ajándék eltűnik,                 done
+                  a pontszám növekszik 1-el,        done
+                  hangot ad ki.                     Attila
+  A pontszám megjeleneik a képernyőn.               done     (Formázás.)
+  Az lost gifts megjelenik a képernyőn.             done
   Grafika.
-    Designeolt ajándékcsomagok.                     done
-    Van háttér.                                     done
-    5 kiesés után leáll a játék.                    Réka
+    Designeolt ajándékcsomagok.                     done    (Átkonvertálni. svg-ben nincs háttér - kell háttér, h. ne legyen átlátszó.)
+    Van háttér.                                     done    (Megnézni opacitivel. Megoldani, h. jó legyen.)
+    5 kiesés után leáll a játék.                    done
   Intro.                                            Attila
   Van háttérhang.                                   Attila+Réka
 

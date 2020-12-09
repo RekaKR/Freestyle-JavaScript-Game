@@ -3,8 +3,9 @@
 
 function onLoad () {
   function collectGift() {
+    let scoreNumber = document.getElementById("score");
     score += 1;
-    console.log(score);
+    scoreNumber.textContent = `${score}`;
     this.remove();
   }
   
@@ -25,6 +26,7 @@ function onLoad () {
 
   const root = document.getElementById("root");
   let score = 0;
+  let life = 5;
   let giftCount = 6;
   let mainRuns = 0;
   let additionalGifts = 0;
@@ -55,7 +57,33 @@ function onLoad () {
       
       if (top >= window.innerHeight) {
         gifts[i].remove();
-        // clearInterval(mainInterval);
+        life -= 1;
+        console.log(life);
+        document.getElementById(`img${life + 1}`).classList.add("img-none");
+
+        /*
+        let lifeFive = document.getElementById("img1");
+        let lifeFour = document.getElementById("img2");
+        let lifeThree = document.getElementById("img3");
+        let lifeTwo = document.getElementById("img4");
+        let lifeOne = document.getElementById("img5");
+
+        if (life === 4) {
+          lifeFive.classList.add("img-none");
+        } else if (life === 3) {
+          lifeFour.classList.add("img-none");
+        } else if (life === 2) {
+          lifeThree.classList.add("img-none");
+        } else if (life === 1) {
+          lifeTwo.classList.add("img-none");
+        } else {
+          lifeOne.classList.add("img-none");
+        }
+        */
+       
+        if (life <= 0) {
+          clearInterval(mainInterval);
+        }
       }
     }
   }

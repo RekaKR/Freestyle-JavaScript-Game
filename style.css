@@ -9,7 +9,6 @@ body {
   background-image: url(./img/background.jpg);
   background-color: #ce0d0d;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 
@@ -29,15 +28,15 @@ body {
   position: fixed;
   top: 20px;
   right: 31px;
+  z-index: 2;
 }
 
 #lost-gifts img {
   width: 35px;
-  /* 
-    &.img-none {
-      display: none;
-    }
-*/
+}
+
+#lost-gifts img.img-none {
+  display: none;
 }
 
 .gift {
