@@ -1,0 +1,131 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.xmas {
+  background-image: url("img/tree.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  height: 100vmin;
+  width: 100vmin;
+}
+
+.xmas .headline {
+  font-weight: 600;
+  padding: 1rem;
+}
+
+@media (min-width: 960px) {
+  .xmas .headline {
+    font-size: 3rem;
+  }
+}
+
+.drama {
+  background: #0026ca;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  text-align: center;
+  height: 100vh;
+  width: 100vmin;
+}
+
+.drama .breaking,
+.drama .news {
+  padding: 0.5rem;
+}
+
+.drama .breaking {
+  display: inline-block;
+  background: #d50000;
+}
+
+.drama .newspaper {
+  padding-top: 25vmin;
+  text-align: center;
+  width: 100%;
+}
+
+.drama .newspaper img {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  max-width: 50%;
+}
+
+.hide {
+  display: none;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.1, 0.1);
+            transform: rotate(0deg) scale(0.1, 0.1);
+  }
+  to {
+    -webkit-transform: rotate(360deg) scale(1.8, 1.8);
+            transform: rotate(360deg) scale(1.8, 1.8);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.1, 0.1);
+            transform: rotate(0deg) scale(0.1, 0.1);
+  }
+  to {
+    -webkit-transform: rotate(360deg) scale(1.8, 1.8);
+            transform: rotate(360deg) scale(1.8, 1.8);
+  }
+}
