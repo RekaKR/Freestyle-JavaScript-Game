@@ -19,9 +19,8 @@ function onLoad () {
 
   function createCat(top) {
     let cat = document.createElement('div'); //div.cat
-    //let random = getRandom(MINKÉPSZÁM, MAXKÉPSZÁM);
-    //gift.innerHTML = `<img src="./img/gift${random}.svg">`;
-    cat.innerHTML = `<img src="./img/cat.png">`;
+    let random = getRandom(1, 3);
+    cat.innerHTML = `<img src="./img/cat${random}.png">`;
     cat.classList.add('cat');
     cat.style.top = getRandom(-50, top) + 'px';
     cat.style.left = getRandom(0, window.innerWidth - 50) + 'px';
