@@ -6,12 +6,25 @@ body {
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#bckgrnd {
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  object-position: 100%;
+  object-fit: cover;
+}
+
+/*body {
   background-image: url(./img/background.jpg);
   background-color: #ce0d0d;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+}*/
 
 #score {
   width: 100px;
@@ -38,7 +51,6 @@ body {
     &.img-none {
       display: none;
     }
-
   }
 }
 

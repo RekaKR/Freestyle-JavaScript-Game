@@ -12,7 +12,7 @@ function onLoad () {
     gift.innerHTML = `<img src="./img/gift${random}.svg">`;
     gift.classList.add('gift');
     gift.style.top = getRandom(-50, top) + 'px';
-    gift.style.left = getRandom(0, window.innerWidth - 50) + 'px';
+    gift.style.left = getRandom(0, window.innerWidth - 70) + 'px';
     gift.addEventListener('click', collectGift);
     root.appendChild(gift);
   }
@@ -23,7 +23,7 @@ function onLoad () {
     cat.innerHTML = `<img src="./img/cat${random}.png">`;
     cat.classList.add('cat');
     cat.style.top = getRandom(-50, top) + 'px';
-    cat.style.left = getRandom(0, window.innerWidth - 50) + 'px';
+    cat.style.left = getRandom(0, window.innerWidth - 100) + 'px';
     cat.addEventListener('click', collectCat);
     root.appendChild(cat);
   }
