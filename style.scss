@@ -33,7 +33,7 @@ body {
   background-size: cover;
 }*/
 
-#score {
+.score {
   width: 100px;
   height: 50px;
   background-color: white;
@@ -43,15 +43,17 @@ body {
   top: 60px;
   right: 30px;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  p {
+    font-weight: 900;
+  }
 }
 
-#highscore {
-  width: 100px;
-  height: 50px;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 10px;
-  position: fixed;
+.highscore {
   top: 120px;
   right: 30px;
   z-index: 1;
