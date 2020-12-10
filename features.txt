@@ -1,19 +1,18 @@
 ##Going to execute:##
-  Intro.                                            Attila
   Ajándékok esnek le az égből.                      done
     Különböző magasságból esnek le.                 done
     Kattintásnál: az ajándék eltűnik,               done
                  a pontszám növekszik 1-el,         done
                  hangot ad ki.                      done
-  A pontszám megjeleneik a képernyőn.               done - Réka     (Formázás.)
-  Highscore jelzése                                 Csaba
+  A pontszám megjeleneik a képernyőn.               done - Csaba (Formázás.)
+  Highscore jelzése                                 done - Csaba (Formázás.)
   Az lost gifts megjelenik a képernyőn.             done
   Grafika.                                          done
-    Designeolt ajándékcsomagok.                     done - Réka    (Átkonvertálni. 14-ig kész.)
+    Designeolt ajándékcsomagok.                     done - Réka (hátteret rakni. 14-ig kész.)
     Van háttér.                                     done
     5 kiesés után leáll a játék.                    done
   Van háttérhang.                                   done
-  Gomb újrakezdéshez.                               Attila
+  Gomb újrakezdéshez.                               done - Réka (újratöltsön)
   Reszponzivitás                                    ?!
   
 ##Features being execute:##
@@ -22,6 +21,7 @@
 
 
 ##Feature##
+  Intro.                                            Attila
   Különböző sebességgel
   Ha leesik a macska, akkor nyávog egyet.
   Kifut a képernyőről oldalra.
