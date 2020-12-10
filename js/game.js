@@ -112,7 +112,6 @@ function onLoad () {
     backgroundSound();
   }
 
-  //
   function reStart() {
     location.reload()
   }
@@ -165,7 +164,6 @@ function onLoad () {
   
   createCat(-100);
 
-  //
   document.getElementById("game-over").addEventListener('click', reStart);
 }
 
