@@ -1,3 +1,8 @@
+$scoreBackgColor: rgb(255, 255, 255);
+$textColor: rgb(255, 255, 255);
+$black: rgb(0, 0, 0);
+$buttonBackgColor: #rgb(102, 102, 102);
+
 html {
   font-size: 16px;
 }
@@ -28,8 +33,8 @@ body {
 .score {
   width: 100px;
   height: 50px;
-  background-color: white;
-  border: 2px solid black;
+  background-color: $scoreBackgColor;
+  border: 2px solid $black;
   border-radius: 10px;
   position: fixed;
   top: 60px;
@@ -118,8 +123,8 @@ body {
   transform: translate(-50%,-50%);
   z-index: 5;
   font-size: 2.5rem;
-  background: #666;
-  color: #fff;
+  background: $buttonBackgColor;
+  color: $textColor;
   width: 300px;
   padding: 2rem;
   text-align: center;
@@ -128,7 +133,7 @@ body {
 }
 
 #game-over {
-  background: #666;
+  background: $buttonBackgColor;
 }
 
 .hide {

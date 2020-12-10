@@ -137,8 +137,8 @@ body {
           transform: translate(-50%, -50%);
   z-index: 5;
   font-size: 2.5rem;
-  background: #666;
-  color: #fff;
+  background: #rgb 102, 102, 102;
+  color: white;
   width: 300px;
   padding: 2rem;
   text-align: center;
@@ -147,7 +147,7 @@ body {
 }
 
 #game-over {
-  background: #666;
+  background: #rgb 102, 102, 102;
 }
 
 .hide {
