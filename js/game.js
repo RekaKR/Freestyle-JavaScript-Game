@@ -6,7 +6,7 @@ function onLoad () {
   function createGift(top) {
     let gift = document.createElement('div');
     let random = getRandom(1, 25);
-    gift.innerHTML = `<img src="./img/gift${random}.svg">`;
+    gift.insertAdjacentHTML('beforeend', `<img src="./img/gift${random}.svg">`);
     gift.classList.add('gift');
     gift.style.top = getRandom(-50, top) + 'px';
     gift.style.left = getRandom(0, window.innerWidth - 70) + 'px';
@@ -17,7 +17,7 @@ function onLoad () {
   function createCat(top) {
     let cat = document.createElement('div');
     let random = getRandom(1, 3);
-    cat.innerHTML = `<img src="./img/cat${random}.png">`;
+    cat.insertAdjacentHTML('beforeend', `<img src="./img/cat${random}.png">`);
     cat.classList.add('cat');
     cat.style.top = getRandom(-50, top) + 'px';
     cat.style.left = getRandom(0, window.innerWidth - 100) + 'px';
@@ -25,16 +25,16 @@ function onLoad () {
     root.appendChild(cat);
   }
 
-  function collectGift() {
+  function collectGift(e) {
     let scoreNumber = document.getElementById("score");
     score += 1;
     scoreNumber.textContent = `${score}`;
-    this.remove();
+    e.currentTarget.remove();
     collectSound();
   }
 
-  function collectCat() {
-    this.remove();
+  function collectCat(e) {
+    e.currentTarget.remove();
     gameOver();
   }
   
@@ -95,9 +95,9 @@ function onLoad () {
   }
 
   function collectSound() {
-    let collectSound = document.getElementById("collect-sound");
-    collectSound.volume = 0.1;
-    collectSound.play();
+    let collectSoundElement = document.getElementById("collect-sound");
+    collectSoundElement.volume = 0.1;
+    collectSoundElement.play();
   }
 
   function backgroundSound() {
