@@ -95,9 +95,9 @@ function onLoad () {
   }
 
   function collectSound() {
-    let collectSound = document.getElementById("collect-sound");
-    collectSound.volume = 0.1;
-    collectSound.play();
+    let collectSoundElement = document.getElementById("collect-sound");
+    collectSoundElement.volume = 0.1;
+    collectSoundElement.play();
   }
 
   function backgroundSound() {
