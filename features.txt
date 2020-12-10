@@ -4,15 +4,15 @@
     Kattintásnál: az ajándék eltűnik,               done
                  a pontszám növekszik 1-el,         done
                  hangot ad ki.                      done
-  A pontszám megjeleneik a képernyőn.               done - Csaba (Formázás.)
-  Highscore jelzése                                 done - Csaba (Formázás.)
+  A pontszám megjeleneik a képernyőn.               done
+  Highscore jelzése                                 done
   Az lost gifts megjelenik a képernyőn.             done
   Grafika.                                          done
     Designeolt ajándékcsomagok.                     done - Réka (hátteret rakni. 14-ig kész.)
     Van háttér.                                     done
     5 kiesés után leáll a játék.                    done
   Van háttérhang.                                   done
-  Gomb újrakezdéshez.                               done - Réka (újratöltsön)
+  Gomb újrakezdéshez.                               done - Réka (újratöltsön + szín)
   Reszponzivitás                                    ?!
   
 ##Features being execute:##
