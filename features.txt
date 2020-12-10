@@ -6,7 +6,7 @@
                  a pontszám növekszik 1-el,         done
                  hangot ad ki.                      done
   A pontszám megjeleneik a képernyőn.               done - Réka     (Formázás.)
-  Highscore jelzése                                 Attila
+  Highscore jelzése                                 Csaba
   Az lost gifts megjelenik a képernyőn.             done
   Grafika.                                          done
     Designeolt ajándékcsomagok.                     done - Réka    (Átkonvertálni. 14-ig kész.)
