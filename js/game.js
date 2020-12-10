@@ -1,6 +1,6 @@
 function onLoad () {
   function getRandom(min, max) {
-    return Math.floor(Math.random() * (max - min) + min);
+    return Math.floor(Math.random() * (max - min + 1) + min);
   }
 
   function createGift(top) {
@@ -112,6 +112,11 @@ function onLoad () {
     backgroundSound();
   }
 
+  //
+  function reStart() {
+    location.reload()
+  }
+
   function gameOver() {
     clearInterval(mainInterval);
     audio.pause();
@@ -121,6 +126,7 @@ function onLoad () {
     }
 
     gameOverButton.classList.remove('hide');
+    gameOverButton.addEventListener('click', startGame);
   }
 
   function main() {
@@ -157,7 +163,10 @@ function onLoad () {
     createGift(-window.innerHeight);
   }
   
-  createCat(-100);  
+  createCat(-100);
+
+  //
+  document.getElementById("game-over").addEventListener('click', reStart);
 }
 
 window.addEventListener("load", onLoad);
