@@ -1,13 +1,20 @@
+html {
+  font-size: 16px;
+}
+
 *,
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  box-sizing: border-box;
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 
 #bckgrnd {
@@ -107,4 +114,29 @@ body {
       height: 100px;  
     }  
   }
+}
+
+#start-game,
+#game-over {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%,-50%);
+  z-index: 5;
+  font-size: 2.5rem;
+  background: blue;
+  color: #fff;
+  width: 300px;
+  padding: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+#game-over {
+  background: #666;
+}
+
+.hide {
+  display: none;
 }

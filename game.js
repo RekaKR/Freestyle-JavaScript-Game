@@ -1,6 +1,3 @@
-
-// let onLoadInterval = setInterval(onLoad, 2000);
-
 function onLoad () {
   function getRandom(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
@@ -108,15 +105,22 @@ function onLoad () {
     audio.play();
   }
 
+  function startGame(e)
+  {
+    e.target.classList.add('hide');
+    mainInterval = setInterval(main, 30);
+    backgroundSound();
+  }
+
   function gameOver() {
     clearInterval(mainInterval);
-    console.log(score);
     audio.pause();
     audio.currentTime = 0;
     if (score > highScore) {
       localStorage.setItem('highScore', score);
     }
 
+    gameOverButton.classList.remove('hide');
   }
 
   function main() {
@@ -131,19 +135,22 @@ function onLoad () {
     moveCat();
   }
 
-  document.querySelector("#score").addEventListener('click', backgroundSound); //ne a score-ra
-
   const root = document.getElementById("root");
   let score = 0;
   const highScore = localStorage.getItem('highScore');
   document.getElementById("highscore-num").textContent = `${highScore}`;
-    
+  
   let life = 5;
   let giftCount = 6;
   let intervalCount = 0;
   let additionalGifts = 0;
-  let mainInterval = setInterval(main, 30);
   let audio = document.getElementById("xmas-sound");
+  let mainInterval;
+  
+  const startGameButton = document.getElementById('start-game');
+  startGameButton.addEventListener('click', startGame);
+
+  const gameOverButton = document.getElementById('game-over');
 
   for (let i = 0; i < giftCount; i++) {
     createGift(-window.innerHeight);
