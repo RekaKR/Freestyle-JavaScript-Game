@@ -136,7 +136,7 @@ function onLoad () {
   const root = document.getElementById("root");
   let score = 0;
   const highScore = localStorage.getItem('highScore');
-  document.getElementById("highscore").textContent = `${highScore}`;
+  document.getElementById("highscore-num").textContent = `${highScore}`;
     
   let life = 5;
   let giftCount = 6;
