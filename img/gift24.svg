@@ -12,7 +12,7 @@
    viewBox="0 0 31.444538 28.599693"
    version="1.1"
    id="svg6304"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="gift24.svg">
   <defs
      id="defs6298" />
@@ -23,18 +23,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-623.43439"
-     inkscape:cy="-60.239061"
+     inkscape:zoom="3.959798"
+     inkscape:cx="-1.1422263"
+     inkscape:cy="23.455977"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1267"
-     inkscape:window-height="1040"
-     inkscape:window-x="78"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1600"
+     inkscape:window-height="848"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata6301">
     <rdf:RDF>
@@ -52,6 +52,12 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-270.78368,-164.10492)">
+    <path
+       style="fill:#ffffff;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 271.51623,181.73252 c 0.46043,11.29101 0.93881,10.27519 0.93881,10.27519 l 28.12379,0.0118 0.93313,-10.41797 -1.04158,-16.63439 -27.98168,0.0472 z"
+       id="path843"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
     <g
        id="g6257"
        transform="matrix(0.35277777,0,0,-0.35277777,97.631155,229.30841)">

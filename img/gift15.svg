@@ -24,7 +24,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="12.430571"
+     inkscape:cx="9.305571"
      inkscape:cy="50.317259"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -56,6 +56,32 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-341.39439,-68.380959)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.06022012;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect834"
+       width="27.596043"
+       height="20.119141"
+       x="345.14691"
+       y="76.769989" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.08543491;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect836"
+       width="33.844627"
+       height="5.6285701"
+       x="342.27634"
+       y="72.314507" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 355.06773,73.055996 c 0.0911,7.022975 -1.95245,2.784805 -3.48668,2.784803 -1.53423,-4e-6 -2.22945,-1.464949 -2.77796,-3.068285 -1.1423,-3.339016 -0.24082,-4.117175 2.02201,-3.068284 1.48698,0.75595 4.22064,1.657341 4.24263,3.351766 z"
+       id="path838"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="scscs" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 363.48223,72.896889 c -0.0911,7.022975 1.95245,2.784805 3.48668,2.784803 1.53423,-4e-6 2.22945,-1.464949 2.77796,-3.068285 1.1423,-3.339016 0.24082,-4.117175 -2.02201,-3.068284 -1.48698,0.75595 -4.22064,1.657341 -4.24263,3.351766 z"
+       id="path838-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="scscs" />
     <g
        id="g4796"
        transform="matrix(0.35277777,0,0,-0.35277777,123.93244,228.28729)">
