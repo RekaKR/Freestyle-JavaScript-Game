@@ -111,13 +111,12 @@ function onLoad () {
   function gameOver() {
     clearInterval(mainInterval);
     console.log(score);
-    localStorage.setItem('highScore', score);
     audio.pause();
     audio.currentTime = 0;
-/*    if (score > highScore) {
-
+    if (score > highScore) {
+      localStorage.setItem('highScore', score);
     }
-*/
+
   }
 
   function main() {
@@ -137,7 +136,8 @@ function onLoad () {
   const root = document.getElementById("root");
   let score = 0;
   const highScore = localStorage.getItem('highScore');
-  console.log(highScore);
+  document.getElementById("highscore").textContent = `${highScore}`;
+    
   let life = 5;
   let giftCount = 6;
   let intervalCount = 0;
