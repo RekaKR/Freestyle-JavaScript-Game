@@ -15,7 +15,7 @@ function onLoad () {
   }
 
   function createCat(top) {
-    let cat = document.createElement('div'); //div.cat
+    let cat = document.createElement('div');
     let random = getRandom(1, 3);
     cat.innerHTML = `<img src="./img/cat${random}.png">`;
     cat.classList.add('cat');
