@@ -18,7 +18,7 @@
 ##Features being execute:##
   Macska esik le az égből.                          done
     Kattintásra: Vége a játéknak.                   done
-  Intro.                                            done - Attila (Összekötni.)
+  Intro.                                            done - (Összekötni.)
 
 ##Feature##
   
